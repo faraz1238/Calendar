@@ -1,0 +1,48 @@
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+th, td{
+    border: 1px solid white;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+th:hover{
+    border: 2px solid green;
+}
+tbody{
+    border: 1px solid;
+    text-align: center;
+
+}
+.header{
+    display: flex;
+    border: 1px solid;
+    max-width: 21.7rem;
+    justify-content: space-around;
+    background-color: skyblue;
+}
+button{
+    background-color: transparent;
+    font-size: larger;
+    border: none;
+    width: 3rem;
+}
+button:active{
+    transform: scaleY(.9);
+}
+.sun{
+    border: 1px solid red;
+}
+.container{
+
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+td:hover{
+    border: 1px solid cornflowerblue;
+    box-sizing: border-box;
+}
